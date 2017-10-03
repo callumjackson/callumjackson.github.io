@@ -163,12 +163,12 @@ section.success {
 header.masthead {
   padding-top: 100px;
   padding-bottom: 50px;
-  text-align: left;
+  text-align: center;
   color: white;
   background: #18BC9C; }
   header.masthead img {
     display: block;
-    margin: 0 auto 30px; 
+    margin: 0 auto 20px; 
 }
   header.masthead .intro-text .name {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
