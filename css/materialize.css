@@ -2,7 +2,14 @@
   text-align: center;
   color: black;
 }
-
+.copyright{
+  padding-top: 20px;
+}
+.main-image{
+width: 100%;
+height: auto;
+padding-top: 325px;
+}
 nav.nav-center ul {
     text-align: center;
 }
