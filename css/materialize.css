@@ -1,6 +1,22 @@
+.title{
+  text-align: center;
+  color: black;
+}
+
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+
 .logoimg{
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
 }
 
 .main-body-text{
@@ -52,6 +68,10 @@ width: 100%;
 }
 .nav-text{
   padding-top: 15px;
+  text-decoration-color: black;
+  color: black;
+}
+.nav-text-small{
   text-decoration-color: black;
   color: black;
 }
@@ -4423,6 +4443,7 @@ nav .nav-wrapper {
   position: relative;
   height: 100%;
   background-color: #f6f8f7;
+
 
 }
 
