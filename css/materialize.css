@@ -2,13 +2,20 @@
   text-align: center;
   color: black;
 }
+.social-icon{
+  width: 10%;
+  height: 10%;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
 .copyright{
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .main-image{
 width: 100%;
 height: auto;
-padding-top: 325px;
+padding-top: 350px;
 }
 nav.nav-center ul {
     text-align: center;
