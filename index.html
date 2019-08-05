@@ -1,489 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
 
-  <head>
+  <title>Photo-Sphere</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="shortcut icon" type="image/png" href="assests/fav-icon/favicon.png">
+  <link type="text/css" rel="stylesheet" href="css/materialize.css">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<style>
+body{
+      background-color: #f6f8f7;
+      font-family: 'Montserrat', sans-serif;
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+}
+nav{
+  font-family: 'Poiret One', cursive;
+}
+</style>
+<body>
+<header>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
 
-    <title>Callum Jackson</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <nav class="z-depth-0 " >
+     <div class="nav-wrapper">
+       <div class="container ">
+         <a href="index.html" class="brand-logo">
+<img class="logoimg left" src="assests/navbar/logo.png" alt="logo">
+         </a>
+         <a href="#" data-target="mobile-demo" class="sidenav-trigger nav-text-mobile"><i class="material-icons">apps</i></a>
+         <ul class="right hide-on-med-and-down nav-ul">
+           <li><a class="nav-text" href="tutorials.html"><h4>Tutorials</h4></a></li>
+           <li><a class="nav-text" href="blog.html"><h4>Blog</h4></a></li>
+           <li><a class="nav-text" href="gallery.html"><h4>Gallery</h4></a></li>
+           <li><a class="nav-text" href="contact.html"><h4>Contact Us</h4></a></li>
+         </ul>
+       </div>
+       </div>
+   </nav>
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+   <ul class="sidenav nav-ul" id="mobile-demo">
 
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+     </div>
+     <li><a class="nav-text" href="tutorials.html"><h4>Tutorials</h4></a></li>
+     <li><a class="nav-text" href="blog.html"><h4>Blog</h4></a></li>
+     <li><a class="nav-text" href="gallery.html"><h4>Gallery</h4></a></li>
+     <li><a class="nav-text" href="contact.html"><h4>Contact Us</h4></a></li>
+   </ul>
+ </header>
+<main>
+  <br><br><br>
+  <div class="carousel carousel-slider">
+    <a class="carousel-item image-slider"><img src="assests/homepage-main/main-4.jpg"></a>
+    <a class="carousel-item image-slider"><img src="assests/homepage-main/main-2.jpg"></a>
+    <a class="carousel-item image-slider"><img src="assests/homepage-main/main-3.jpg"></a>
+    <a class="carousel-item image-slider"><img src="assests/homepage-main/main-1.jpg"></a>
+    <a class="carousel-item image-slider"><img src="assests/homepage-main/main-5.jpg"></a>
 
-  </head>
+      </div>
+  <br>
 
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Callum Jackson</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" glyphicon-menu-hamburger>
-          
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+<div class="row">
+  <div class="col s6">
+    <div class="container main-body-text">
+      <br>
+    <h5 class="main-body-text">
+        Welcome to the Photo-Sphere website. Here you will be able to view the latest photos in our gallery,
+        contact us for help and advice and view the different techniques in the various help and advice
+        sections above. Have a look around to develop your knowledge of the different types of photography and
+        all the things you can do with your lovely camera.
+    </h5>
+  </div>
+</div>
+  <div class="col s6">
+    <img class="img-small-hp" src="assests/homepage-main/view1.jpg">
+  </div>
+    <div class="sticky-container">
+        <ul class="sticky">
+            <li>
+                <img src="assests/homepage-main/media/facebook.png" width="32" height="32">
+                <p><a href="#" target="_blank">Like Us on<br>Facebook</a></p>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <li>
+                <img src="assests/homepage-main/media/twitter.png" width="32" height="32">
+                <p><a href="#" target="_blank">Follow Us on<br>Twitter</a></p>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#footer">Contact</a>
+            <li>
+                <img src="assests/homepage-main/media/google+.png" width="32" height="32">
+                <p><a href="#" target="_blank">Follow Us on<br>Google+</a></p>
             </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <img class="img-fluid" src="assests/photoofme.jpg" alt="">
-        <div class="intro-text">
-          <span class="name">Callum jackson</span>
-          <hr class="star-light">
-          <span class="skills">Web Designer  - Photographer </span>
-        </div>
-      </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-      <div class="container">
-        <h2 class="text-center">Portfolio</h2>
-        <hr class="star-primary">
-        <div class="row">
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="/assests/port1.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="/assests/port5.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="/assests/port2.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="/assests/port4.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="/assests/port3.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="/assests/port6.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-      <div class="container">
-        <h2 class="text-center">About</h2>
-        <hr class="star-light">
-        <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p>I am currently doing my third year at staffordshire university. I aim to get my degree then follow on to a masters. This website is a base for my social media and a way that possible employers will be able to find me.</p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <img src="assests/rsz_about_1.jpg">
-          </div>
-            <div class="col-lg-4 ml-auto">
-            <p>Weather you into fast downhill moutntin biking videos or elegant wedding photos of your happy day. I am able to get the best footage or photo for your needs as well as present them in the best way possible.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer -->
-     
-    <footer class="text-center" id="footer">
-      <div class="footer-above">
-        <div class="container">
-          <div class="row">
-            <div class="footer-col col-md-4">
-              <h3>Location</h3>
-              <p>Birmingham
-                <br>Staffordshire, England</p>
-            </div>
-            <div class="footer-col col-md-4">
-              <h3>Around the Web</h3>
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-social btn-outline" href="https://plus.google.com/u/2/113634211530246024936" target="_blank">
-                    <i class="fa fa-fw fa-google-plus"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-social btn-outline" href="https://twitter.com/Calzone_Jackson" target="_blank">
-                    <i class="fa fa-fw fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-social btn-outline" href="http://www.linkedin.com/in/callum-jackson-media/" target="_blank">
-                    <i class="fa fa-fw fa-linkedin"></i>
-                  </a>
-                  </li>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-col col-md-4">
-              <h3>Thanks</h3>
-              <p>Hope this has helped you understand a little more about me and what I do. Many thanks Callum Jackson</p>        
-          </div>
-        </div>
-      </div>
-      <div class="footer-below">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              Copyright &copy; Callum Jackson Media 2017-2018
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-      
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top d-lg-none">
-      <a class="btn btn-primary js-scroll-trigger" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
+        </ul>
     </div>
+  </div>
 
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2>sunset on a golden age</h2>
-                  <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="/assests/port1.jpg" alt="">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis rhoncus, iaculis tellus vitae, aliquet massa. Integer ultrices pulvinar nulla, ac aliquet felis mollis facilisis. Aenean ornare consectetur elit, nec lacinia erat aliquet at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam semper rutrum magna. Vestibulum a sapien enim. Nulla sagittis dictum mi non aliquet. Integer a mauris et tortor blandit eleifend a id dolor.</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        Callum Jackson
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        July 2017
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                       Photography
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2>A place to dock</h2>
-                  <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="/assests/port5.jpg" alt="">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis rhoncus, iaculis tellus vitae, aliquet massa. Integer ultrices pulvinar nulla, ac aliquet felis mollis facilisis. Aenean ornare consectetur elit, nec lacinia erat aliquet at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam semper rutrum magna. Vestibulum a sapien enim. Nulla sagittis dictum mi non aliquet. Integer a mauris et tortor blandit eleifend a id dolor.</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        Callum Jackson
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        July 2017
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                       Photography
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2>pool party</h2>
-                  <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="/assests/port2.jpg" alt="">
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis rhoncus, iaculis tellus vitae, aliquet massa. Integer ultrices pulvinar nulla, ac aliquet felis mollis facilisis. Aenean ornare consectetur elit, nec lacinia erat aliquet at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam semper rutrum magna. Vestibulum a sapien enim. Nulla sagittis dictum mi non aliquet. Integer a mauris et tortor blandit eleifend a id dolor.</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        Callum Jackson
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        July 2017
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                       Photography
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2>what a view</h2>
-                  <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="/assests/port4.jpg" alt="">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis rhoncus, iaculis tellus vitae, aliquet massa. Integer ultrices pulvinar nulla, ac aliquet felis mollis facilisis. Aenean ornare consectetur elit, nec lacinia erat aliquet at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam semper rutrum magna. Vestibulum a sapien enim. Nulla sagittis dictum mi non aliquet. Integer a mauris et tortor blandit eleifend a id dolor.</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        Callum Jackson
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        July 2017
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                       Photography
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2>take a break</h2>
-                  <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="/assests/port3.jpg" alt="">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis rhoncus, iaculis tellus vitae, aliquet massa. Integer ultrices pulvinar nulla, ac aliquet felis mollis facilisis. Aenean ornare consectetur elit, nec lacinia erat aliquet at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam semper rutrum magna. Vestibulum a sapien enim. Nulla sagittis dictum mi non aliquet. Integer a mauris et tortor blandit eleifend a id dolor.</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        Callum Jackson
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        July 2017
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                       Photography
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2>the alps</h2>
-                  <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="/assests/port6.jpg" alt="">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis rhoncus, iaculis tellus vitae, aliquet massa. Integer ultrices pulvinar nulla, ac aliquet felis mollis facilisis. Aenean ornare consectetur elit, nec lacinia erat aliquet at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam semper rutrum magna. Vestibulum a sapien enim. Nulla sagittis dictum mi non aliquet. Integer a mauris et tortor blandit eleifend a id dolor.</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        Callum Jackson
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        July 2017
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                       Photography
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<div class="row">
+  <div class="col s3 center">
+  <a href="dslr.html"><img class="card-large" src="assests/homepage-quad/dslr.png"></a>
+    <h5 class="Center">DSLR</h5>
+  </div>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <div class="col s3 center">
+    <a href="digital-camrea.html">
+    <img class="card-large" src="assests/homepage-quad/flatcam.png"></a>
+    <h5 class="Center">Digital Camrea</h5>
+  </div>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+  <div class="col s3 center">
+    <a href="phone.html">
+    <img class="card-large" src="assests/homepage-quad/phone.png"></a>
+    <h5 class="Center">Mobile Phone</h5>
+  </div>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
+  <div class="col s3 center">
+    <a href="drone.html">
+    <img class="card-large" src="assests/homepage-quad/drone.png"></a>
+    <h5 class="Center">Drone</h5>
+  </div>
 
-  </body>
+</div>
 
+
+
+
+</main>
+</body>
 </html>
