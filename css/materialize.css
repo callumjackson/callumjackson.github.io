@@ -6,7 +6,13 @@
 width: 80%;
 margin: auto;
 }
-
+.image-body{
+  width: 75%;
+  height: auto;
+  padding-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .copyright{
   padding-top: 10px;
 }
