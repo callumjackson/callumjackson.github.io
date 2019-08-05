@@ -2,9 +2,11 @@
   text-align: center;
   color: black;
 }
-
-
+.top-links{
+width: 80%;
+margin: auto;
 }
+
 .copyright{
   padding-top: 10px;
 }
