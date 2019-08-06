@@ -4,9 +4,9 @@ $(document).ready(function(){
 
 
  $(document).ready(function(){
-    $('.carousel').carousel({
-      dist: 0
-    });
+   $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
   });
 
   $(document).ready(function(){
